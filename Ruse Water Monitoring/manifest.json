@@ -6,7 +6,7 @@
   "version": "1.0",
   "author": "Jerry Sun",
   "action": {
-      "default_icon":"ICON.png",
+      "default_icon":"icon (1).png",
       "default_popup":"popup.html",
       "default_title":"Ruse Water Manager"
       
