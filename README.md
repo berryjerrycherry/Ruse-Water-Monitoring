@@ -1,3 +1,3 @@
 # Ruse-Water-Monitoring
 
-JERRY SUN please fix ur indentation when u code ty <3
+A extension-based chrome extension to montior a school's water usage
