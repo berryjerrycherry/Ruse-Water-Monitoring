@@ -11,42 +11,112 @@
     
     body {
         background: rgb(34, 34, 34);
-        height: 280px;
+        height: 200px;
         width: 495px;
     }
     h1 {
         color:rgb(69, 114, 196);
         font-size: 30px;
         text-align: center;
+        position: relative;
+        bottom: 45px;
     }
     h2 {
         color:rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
+        position: relative;
+        bottom: 65px;
     }
     h3 {
         color:rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 15px;
         text-align: center;
+        position:relative;
+        bottom: 75px;
     }
     h4 {
         color:rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 15px;
         text-align: center;
+        position:relative;
+        bottom: 85px;
     }
     h5 {
         color:rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 15px;
         text-align: center;
+        position:relative;
+        bottom: 100px;
     }
+    h6 {
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        text-align: center;
+        position:relative;
+        bottom: 100px;
+    }
+    p {
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        text-align: center;
+        position:relative;
+        bottom: 125px;
+        font-weight: 700
+    }
+    .back {
+	border-radius: 10px;
+	background-color: #524e4e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding: 9px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	position: relative;
+	bottom: 0px;
+	left: 0;
+	display: flex;
+}
+
+.back span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.back span:after {
+	content: '\00ab';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -20px;
+	transition: 0.5s;
+}
+
+.back:hover span {
+	padding-left: 25px;
+}
+
+.back:hover span:after {
+	opacity: 1;
+	left: 0;
+}
+
 </style>
 <body>
+    <a href="settings.html">
+        <button class="back"><span>Back</span></button>
     <h1> About Us </h1>
     <h2> Managed by the 2022 Water Team</h2>
     <h3> Credits:</h3>
     <h4> Jerry Sun (Developer)</h4>
     <h5> With the help of Raymond Zhu, Callum and Oliver Li </h5>
-    
+    <h6> Why did we make this?</h6>
+    <p> We created this to raise awareness about our school's water usage and this extension can easily monitor our water usage. </p>
 
 </body>
 </html>
