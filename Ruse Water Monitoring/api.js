@@ -11,3 +11,4 @@ xmlHttp.onreadystatechange = () => {
 }
 xmlHttp.open("GET", url, true);
 xmlHttp.send(null);
+
